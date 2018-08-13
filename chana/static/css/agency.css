@@ -13,11 +13,11 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: blue;
 }
 
 a:hover {
-  color: #fec503;
+  color: aqua;
 }
 
 .text-primary {
@@ -70,7 +70,7 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #fed136;
+  background-color: cyan;
   border-color: #fed136;
 }
 
@@ -118,12 +118,12 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: aqua;
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: magenta;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -136,7 +136,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: red;
 }
 
 @media (min-width: 992px) {
@@ -403,7 +403,7 @@ header.masthead .intro-text .intro-heading {
   width: 2px;
   margin-left: -1.5px;
   content: '';
-  background-color: #e9ecef;
+  background-color: green;
 }
 
 .timeline > li {
