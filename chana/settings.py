@@ -125,4 +125,4 @@ STATIC_URL = '/static/'
 STATIC_ROOT=os.path.join(PROJECT_ROOT,'staticfiles')
 STATICFILES_STORAGE='whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-django_heroku.settingd(locals())
+django_heroku.settings(locals())
