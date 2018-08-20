@@ -10,6 +10,7 @@
     <meta name="author" content="">
 
       <title>ChanaChonje Solutions | Beyond Excellence!</title>
+      <link rel='icon' href="{% static 'favicon.png' %}"> 
 
     <!-- Bootstrap core CSS -->
     <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
@@ -351,17 +352,17 @@
               <p class="text-muted">Chief Technology Officer.</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
-                  <a href="https://twitter.com/TralahM/">
+                  <a target='_blank' href="https://twitter.com/TralahM/">
                     <i class="fa fa-twitter"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="https://github.com/TralahM/">
+                  <a target='_blank' href="https://github.com/TralahM/">
                     <i class="fa fa-facebook"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="https://linkedin.com/tralah-musyoki/">
+                  <a target='_blank' href="https://linkedin.com/tralah-musyoki-6a6055159/">
                     <i class="fa fa-linkedin"></i>
                   </a>
                 </li>
@@ -465,7 +466,7 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://facebook.com/chanachonje2">
+                <a target='_blank' href="https://facebook.com/chanachonje2">
                   <i class="fa fa-facebook"></i>
                 </a>
               </li>
@@ -507,12 +508,11 @@
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Project TralahTek</h2>
-                  <p class="item-intro text-muted">Designing a website for the tech startup..</p>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                   <img class="img-fluid d-block mx-auto" src="{% static 'img/portfolio/01-full.jpg' %}" alt="">
-                    <p>It took us 3 weeks to get the first version done.The client was very pleased with our work and has since recommended other clients to us.
-		    To view the complete project check it out at <a href="https://tralahtek.herokuapp.com" target="_blank">TralahTek LLC </a>!</p>
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                   <ul class="list-inline">
-                    <li>Date: May 2018</li>
+                    <li>Date: January 2017</li>
                     <li>Client: TralahTek</li>
                     <li>Category: Website Design</li>
                   </ul>
@@ -541,13 +541,13 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project BoyChild</h2>
-                  <p class="item-intro text-muted">Dj Boychild sought our services to create a brand and corporate look for his business.</p>
+                  <h2 class="text-uppercase">Project Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                   <img class="img-fluid d-block mx-auto" src="{% static 'img/portfolio/02-full.jpg' %}" alt="">
-                  <p>With our highly skilled team of professional image consultants, we completely set out to solve our clients problem and in 2 months we had re done his brand and improved his online presence ten-fold.</p>
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                   <ul class="list-inline">
-                    <li>Date: June 2018</li>
-                    <li>Client: DJBoychild254</li>
+                    <li>Date: January 2017</li>
+                    <li>Client: Explore</li>
                     <li>Category: Graphic Design</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -575,14 +575,14 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Blessed Hand Crotchet Collections.</h2>
-                  <p class="item-intro text-muted">Our client needed an e-commerce platform for her crotchet business.</p>
+                  <h2 class="text-uppercase">Project Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                   <img class="img-fluid d-block mx-auto" src="{% static 'img/portfolio/03-full.jpg' %}" alt="">
-                  <p>We were to create a virtual online Shop where clients could make purchases of the products from the comfort of their own home using their acomputers or hand-held devices.</p>
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                   <ul class="list-inline">
-                    <li>Date: August  2018</li>
-                    <li>Client: Blessed Hand Crotchet Collections.</li>
-                    <li>Category: E-Commerce Platform Scolution.</li>
+                    <li>Date: January 2017</li>
+                    <li>Client: Finish</li>
+                    <li>Category: Identity</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -609,13 +609,13 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Kisasi Furnitures.</h2>
-                  <p class="item-intro text-muted">Branding</p>
+                  <h2 class="text-uppercase">Project Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                   <img class="img-fluid d-block mx-auto" src="{% static 'img/portfolio/04-full.jpg' %}" alt="">
-                  <p>Kisasi furnitures were seeking to increase their customer base and needed us to run a targeted advertisement campaign program for a set of three months. It was very successful!</p>
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                   <ul class="list-inline">
                     <li>Date: January 2017</li>
-                    <li>Client: Kisasi Furnitures Ltd.</li>
+                    <li>Client: Lines</li>
                     <li>Category: Branding</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -643,13 +643,13 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project 3-Point.Dev</h2>
-                  <p class="item-intro text-muted">Website Design.</p>
+                  <h2 class="text-uppercase">Project Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                   <img class="img-fluid d-block mx-auto" src="{% static 'img/portfolio/05-full.jpg' %}" alt="">
-                  <p>3-Point needed us to create a fully dynamic and responsive website that was sleek and minimal for their startup. </p>
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                   <ul class="list-inline">
-                    <li>Date: April 2018</li>
-                    <li>Client: 3 Point Developers.</li>
+                    <li>Date: January 2017</li>
+                    <li>Client: Southwest</li>
                     <li>Category: Website Design</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -677,13 +677,13 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project ItookitPhotography.</h2>
-                  <p class="item-intro text-muted">Creating a Digital Multimedia Library for Machine Learning.</p>
+                  <h2 class="text-uppercase">Project Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                   <img class="img-fluid d-block mx-auto" src="{% static 'img/portfolio/06-full.jpg' %}" alt="">
-                    <p>We patnered with this company to create a digital library of videos and Images they had collected over the years and run Machine Learning on the Data therein.</p>
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                   <ul class="list-inline">
-                    <li>Date: September 2018</li>
-                    <li>Client: ItookitPhotography.</li>
+                    <li>Date: January 2017</li>
+                    <li>Client: Window</li>
                     <li>Category: Photography</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
