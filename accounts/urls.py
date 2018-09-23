@@ -1,4 +1,4 @@
-from django.conf.urls import url
+from django.conf.urls import url,include
 #This will include the following urls patterns
 '''
 ^login/$ [name='login']
