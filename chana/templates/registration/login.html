@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends 'base.html' %}
 
 {% block content %}
 
@@ -16,8 +16,7 @@ please login with an account that has access.
 <p> Please login to see this page. </p>
 {% endif %}
 {% endif %}
-
-<form method="post" action="{% url 'login' %}">
+<form class="col-md-6" method="post" action="{% url 'login' %}">
   {% csrf_token %}
   <table>
     <tr>
@@ -29,12 +28,11 @@ please login with an account that has access.
       <td>{{ form.password }}</td>
     </tr>
   </table>
-
   <input type="submit" value="login" />
   <input type="hidden" name="next" value="{{ next }}" />
 </form>
 
 <p><a href="{% url 'password_reset' %}">Lost password?</a></p>
-
+<p><a href="{% url 'signup' %}"></a></p>
 {% endblock %}
 
