@@ -13,6 +13,6 @@ from django.conf.urls import url
 from . import views as acc_views
 
 urlpatterns=[
-    url('^signup/',acc_view.SignUpView.as_view(),name="signup"),
+    url('^signup/',acc_views.SignUpView.as_view(),name="signup"),
     url('^',include('django.contrib.auth.urls')),
 ]
