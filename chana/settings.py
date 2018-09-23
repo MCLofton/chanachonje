@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'whitenoise.runserver_nostatic',
     'chana',
+    'accounts',
 ]
 
 MIDDLEWARE = [
