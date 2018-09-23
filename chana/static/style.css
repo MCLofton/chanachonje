@@ -1,0 +1,15 @@
+.content {
+    background-color: inherit;
+    text-decoration: inherit;
+    padding: inherit;
+    font-family:sans-serif;
+}
+.message{
+    color: green;
+    font-size:21px;
+}
+.error{
+    color:magenta;
+    font-size:21px;
+}
+    

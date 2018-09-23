@@ -1,40 +1,18 @@
 # -*- coding: utf-8 -*-
-from __future__ import unicode_literals
+from django.contrib.auth import login, authenticate
+from django.contrib.auth.forms import UserCreationForm
+from django.shortcuts import render, redirect
+from django.views.generic.edit import FormView
 
-from django.shortcuts import render
+class SignUpView(FormView):
+    form_class = UserCreationForm
+    template_name = 'signup.html'
 
-# Create your views here.
+    def form_valid(self, form):
+        form.save()
+        username = form.cleaned_data.get('username')
+        raw_password = form.cleaned_data.get('password1')
+        user = authenticate(username=username, password=raw_password)
+        login(self.request, user)
+        return redirect('')
 
-def login(request):
-    """Function to login existing User"""
-    #Create LoginForm object
-    #Check if method is GET or POST
-    #get cleaned data from form
-    #auntheticate the user and raise exceptions if any.
-    #redirect user to dashboard profile page.
-    return render(request,'login.html',{'form':form})
-
-def logout(request):
-    #TODO
-    pass
-
-def register(request):
-    #create RegistrationForm object
-    #pass it to template
-    #Get submitted data
-    #Verify validity of data
-    #Create new user object in database
-    #Redirect user to login page on success
-    #else reload register.html
-    pass
-def dashboard(request):
-    #TODO
-    pass
-
-def profile(request):
-    #TODO
-    pass
-
-def edit_profile(request):
-    #TODO
-    pass
