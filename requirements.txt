@@ -6,4 +6,7 @@ gunicorn==18.0
 newrelic==2.16.0.12
 psycopg2==2.5.2
 wsgiref==0.1.2
+psycopg2-binary
+django-heroku
+
 
