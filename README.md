@@ -7,4 +7,4 @@
 - Gunicorn
 - django-heroku
 
-# View the live site [[https://chanachonje.herokuapp.com][Chanachonje]
+# View the live site [[Chanachonje]](https://chanachonje.herokuapp.com)
